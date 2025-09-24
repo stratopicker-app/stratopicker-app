@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>Stratopicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAAD/tHhFAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFJ0lEQVR4nO2d63ETSRCG38a0F9eWvGkHlT3g9oK7wY0Gdgf2BjsGjAdgBzgDjgA6wB78Sgds16bTzKxX+H9mO1n0hJ+d/zGg1NfW1tfbWcAn7103gD/wXv8H/y+a2d+zT2L9jT2E7yTzHk5tL2H70d309vT10c3v7e39u9H9P7h/Bf7L2P03943kM3/w67G3wX+Q9/T61wJzD/4/WkG81O32N2N/eG9jH7iG8J9J/O184g/9eH7e5r/73/8N5L+YV27gG3/4g8lH/O/f4s/f8G/Gfwj5xP/444T+3Xgq/xX/Lw7+3f3/3o+G/u+tHwwf9f25z/a9m5z9P8B40PfpjUv6c/P/c/sJ/5/f9L/2Yf8yX+f/w+327+n63v44Yj2V+8Z/9f19+3n/jJj/n4w/h2A9u0wfn2T76b88n9/g+e/k/n7A8x/u3eJ+Yv5fW/P+g+3H/M1xJ+v+c+b+P+v+2s/4a9+h+f/x/d7L7b7x3/8B5L++sPzX89+y+v+k3n8/wH8R0p+t6f+D9v8e3n93t/W/s33l/Vn8f8eN+oP6Yf8zXz3/5//H1f3z/8D79f2c/j+w/eX9Vfz723/7+m8f/9618f/l/P/t7n/4w+v/mP+fMv9+2v/8n//1/z9/f/b/r/t/+P/1//7/D2f//+P/x/8b/4f/H/wv/L/hvzP/P8H/K//4//H//f9lP/z/z2f//+N/z/+h/w/w//D/D/j/+f/v+m//Y3/9//4/+b+H/wv/P/nf+j//z/b/i//9/C/h//l/z3/n3/9f/if/H/6n/2f/B/+/5v//+F/yv/9/n/+T//7/b+n//D+b//z/+/2/5v/x//v+m///83/N/83+f/nv/L/v//z/7f+/83/f/+f+v/F/+P5v//z+j/f/x//5/N//3f/+P+n//7+D/f/+n//f/nf+f/L/F/+v//P8X/q/w/9v+38L/8f/X+n8P/6//8/X/8P/8P/v/h/w/+n/z/4X//P/n/jf/z/8n/c/5v//P6H/z/z/8P/z/73/F//H/L/T/j/z3/F//H/z/j/33/c/5/yv/2f/5/z/8H/yv/3/n//7/j//v/n/j/z3/F//H/5/z/33/F//H/z/nf/7+c/z/33+D/f/+n//f/nf/7/j//v/n/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/z/3/n/-/" type="image/png">
+    <style>
+        :root {
+            --bg-color: #1a1b26;
+            --card-bg: #24283b;
+            --primary-color: #bb9af7;
+            --text-color: #c0caf5;
+            --input-bg: #1f2335;
+            --border-color: #414868;
+            --success-color: #9ece6a;
+            --error-color: #f7768e;
+            --reroll-color: #f7768e;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 850px;
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 30px 40px;
+        }
+
+        .header { text-align: center; margin-bottom: 30px; }
+        .header h1 { font-size: 2.2em; font-weight: 700; color: var(--primary-color); }
+        .header p { font-size: 0.9em; color: #a9b1d6; }
+
+        .input-group { margin-bottom: 15px; }
+        
+        input[type="text"], input[type="password"], input[type="number"] {
+            width: 100%; padding: 12px 15px; border: 1px solid var(--border-color);
+            border-radius: 8px; font-size: 0.95em; background-color: var(--input-bg);
+            color: var(--text-color); transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        input:focus { border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(187, 154, 247, 0.3); outline: none; }
+        
+        .form-options { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 20px; }
+        .form-options .input-group { margin-bottom: 0; }
+        .checkbox-group { display: flex; flex-direction: column; gap: 10px; }
+        .checkbox-item { display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 0.9em;}
+        .checkbox-item input[type="checkbox"] { width: 1.2em; height: 1.2em; }
+        
+        #followerCheckGroup {
+            flex-grow: 1;
+            transition: opacity 0.3s, max-height 0.3s ease-in-out;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+        }
+        
+        #followerCheckGroup.visible {
+            max-height: 100px; /* Cukup untuk menampung input */
+            opacity: 1;
+        }
+
+        button#submitButton {
+            width: 100%; padding: 15px; border: none; border-radius: 8px;
+            background: var(--primary-color); color: var(--bg-color);
+            font-size: 1.1em; font-weight: 700; cursor: pointer; transition: all 0.3s ease;
+        }
+        button#submitButton:hover { filter: brightness(1.2); }
+        button#submitButton:disabled { background: #565f89; cursor: not-allowed; }
+
+        .results-section { 
+            margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border-color); 
+        }
+        .message-box { padding: 15px; margin-bottom: 20px; border-radius: 8px; text-align: center; }
+        .message-box.error { background-color: rgba(247, 118, 142, 0.1); border: 1px solid var(--error-color); color: var(--error-color); }
+        .message-box.loading { text-align: center; color: #a9b1d6; padding: 10px; }
+        
+        .results-grid { display: flex; gap: 20px; margin-bottom: 20px;}
+        .details-card, .winners-card { background-color: var(--input-bg); border-radius: 8px; padding: 20px; }
+        .details-card { flex: 1; }
+        .winners-card { flex: 2; }
+        h2 { margin-top: 0; margin-bottom: 20px; font-size: 1.2em; color: var(--text-color); }
+        .details-card ul { list-style: none; padding: 0; }
+        .details-card li { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border-color); font-size: 0.9em; }
+        .details-card li:last-child { border-bottom: none; }
+        .details-card .label { color: #a9b1d6; }
+        .details-card .value { font-weight: 500; color: var(--success-color); }
+
+        .winners-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 15px; }
+
+        .winner-card {
+            background-color: var(--card-bg); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 15px; text-align: center;
+            display: flex; flex-direction: column; justify-content: space-between;
+        }
+        .winner-rank { font-size: 0.8em; color: #a9b1d6; margin-bottom: 5px; }
+        .winner-card img { width: 50px; height: 50px; border-radius: 50%; margin-bottom: 8px; align-self: center;}
+        .winner-handle a { color: var(--text-color); text-decoration: none; font-size: 0.9em; word-break: break-all; }
+        .winner-handle a:hover { color: var(--primary-color); }
+
+        .reroll-btn { 
+            margin-top: 10px; padding: 5px 10px; font-size: 0.8em; 
+            background-color: var(--reroll-color); color: white; 
+            border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.2s;
+        }
+        .reroll-btn:hover { background-color: #d46376; }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container { padding: 20px 25px; }
+            .results-grid { flex-direction: column; }
+            .form-options { flex-direction: column; align-items: stretch; gap: 25px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Stratopicker</h1>
+            <p>Pilih pemenang dari Repost, Komentar & Likes di Bluesky.</p>
+        </div>
+
+        <form id="pickerForm">
+            <div class="input-group">
+                <input type="text" id="postUrl" placeholder="URL Postingan Bluesky" required autocomplete="off">
+            </div>
+
+            <div class="form-options">
+                <div class="input-group">
+                    <label for="numWinners">Jumlah Pemenang</label>
+                    <input type="number" id="numWinners" value="1" min="1">
+                </div>
+                <div class="checkbox-group">
+                    <label class="checkbox-item"><input type="checkbox" id="filterRepost" checked> Peserta dari Repost</label>
+                    <label class="checkbox-item"><input type="checkbox" id="filterComments"> Peserta dari Komentar</label>
+                    <label class="checkbox-item"><input type="checkbox" id="filterLikes"> Peserta dari Likes</label> <label class="checkbox-item"><input type="checkbox" id="filterFollowers"> Wajib Follow Akun...</label>
+                </div>
+            </div>
+
+            <div id="followerCheckGroup" class="input-group">
+                <input type="text" id="followerCheckHandle" placeholder="Username penyelenggara (misal: user.bsky.social)" autocomplete="off">
+            </div>
+
+            <button type="submit" id="submitButton">Pilih Pemenang</button>
+        </form>
+        
+        <div id="message" style="margin-top: 20px;"></div>
+
+        <div id="results-section" style="display: none;">
+            <div class="results-grid">
+                <div class="details-card" id="draw-details"></div>
+                <div class="winners-card" id="winners-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Variabel global untuk state Reroll
+        let currentParticipants = [], currentWinners = [], postOwner = '';
+        let lastPayload = {}; // Menyimpan payload terakhir untuk Reroll
+
+        // Elemen DOM
+        const pickerForm = document.getElementById('pickerForm');
+        const submitButton = document.getElementById('submitButton');
+        const messageDiv = document.getElementById('message');
+        const drawDetailsDiv = document.getElementById('draw-details');
+        const winnersContainer = document.getElementById('winners-container');
+        const resultsSection = document.getElementById('results-section');
+        const filterFollowersCheckbox = document.getElementById('filterFollowers');
+        const followerCheckGroup = document.getElementById('followerCheckGroup');
+        
+        filterFollowersCheckbox.addEventListener('change', function() {
+            followerCheckGroup.classList.toggle('visible', this.checked);
+        });
+
+        function showMessage(type, text) {
+            messageDiv.className = `message-box ${type}`;
+            messageDiv.innerHTML = text;
+        }
+        
+        function renderWinners(winners) {
+            let countText = `(${winners.length} orang)`;
+            winnersContainer.innerHTML = `<h2>Pemenang ${countText}</h2>`;
+            const grid = document.createElement('div');
+            grid.className = 'winners-grid';
+            
+            winners.forEach((winner, index) => {
+                const rankSuffix = (index + 1 === 1) ? 'st' : (index + 1 === 2) ? 'nd' : (index + 1 === 3) ? 'rd' : 'th';
+                const rankText = `${index + 1}${rankSuffix} Winner`;
+                grid.innerHTML += `
+                    <div class="winner-card">
+                        <div>
+                            <div class="winner-rank">${rankText}</div>
+                            <img src="${winner.avatar || 'https://via.placeholder.com/50'}" alt="Avatar">
+                            <div class="winner-handle"><a href="https://bsky.app/profile/${winner.handle}" target="_blank">${winner.handle}</a></div>
+                        </div>
+                        <button class="reroll-btn" onclick="rerollWinner('${winner.handle}')">Undi Ulang</button>
+                    </div>
+                `;
+            });
+            winnersContainer.appendChild(grid);
+        }
+
+        function renderDrawDetails(participantCount, winnerCount, drawTime) {
+             drawDetailsDiv.innerHTML = `
+                <h2>Draw Details</h2>
+                <ul>
+                    <li><span class="label">Status</span> <span class="value">Completed</span></li>
+                    <li><span class="label">Entries</span> <span class="value">${participantCount}</span></li>
+                    <li><span class="label">Winner(s)</span> <span class="value">${winnerCount}</span></li>
+                    <li><span class="label">Draw Time</span> <span class="value">${new Date(drawTime).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}</span></li>
+                </ul>
+            `;
+        }
+        
+        async function performDraw(payload, isReroll = false) {
+            if (!isReroll) {
+                resultsSection.style.display = 'none';
+                lastPayload = payload; // Simpan payload untuk undian baru
+            }
+            showMessage('loading', isReroll ? 'Mengundi ulang...' : 'Memproses...');
+            submitButton.disabled = true;
+            
+            try {
+                const response = await fetch('/pick_winner', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await response.json();
+
+                if (data.success) {
+                    messageDiv.innerHTML = '';
+                    resultsSection.style.display = 'block';
+                    
+                    if (isReroll) {
+                        const newWinner = data.winner[0];
+                        const indexToReplace = currentWinners.findIndex(w => w.handle === payload.handleToReroll);
+                        if (indexToReplace !== -1) {
+                            currentWinners[indexToReplace] = newWinner;
+                        }
+                    } else {
+                        currentWinners = data.winner;
+                        currentParticipants = data.participants; // Simpan daftar peserta mentah
+                        postOwner = data.post_owner;
+                        renderDrawDetails(data.participant_count, data.winner.length, data.draw_time);
+                    }
+                    renderWinners(currentWinners);
+                } else {
+                    showMessage('error', `Error: ${data.error}`);
+                }
+            } catch (error) {
+                showMessage('error', 'Terjadi kesalahan jaringan.');
+            } finally {
+                submitButton.disabled = false;
+            }
+        }
+
+        pickerForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const payload = {
+                post_url: document.getElementById('postUrl').value,
+                num_winners: document.getElementById('numWinners').value,
+                filter_repost: document.getElementById('filterRepost').checked,
+                filter_comments: document.getElementById('filterComments').checked,
+                filter_likes: document.getElementById('filterLikes').checked, // Kirim data likes
+                filter_followers: document.getElementById('filterFollowers').checked,
+                follower_check_handle: document.getElementById('followerCheckHandle').value,
+            };
+            performDraw(payload);
+        });
+
+        // FUNGSI REROLL AKTIF KEMBALI
+        function rerollWinner(handleToReroll) {
+            const excludeHandles = currentWinners.map(w => w.handle);
+            
+            // Gunakan payload terakhir, tambahkan data untuk reroll
+            const rerollPayload = {
+                ...lastPayload,
+                num_winners: 1, // Hanya cari 1 pemenang baru
+                participants: currentParticipants, // Kirim daftar peserta lengkap agar server tidak perlu fetch ulang
+                post_owner: postOwner,
+                exclude_winners: excludeHandles, // Kirim daftar pemenang saat ini untuk dieksklusi
+                handleToReroll: handleToReroll // Info untuk frontend
+            };
+            performDraw(rerollPayload, true);
+        }
+    </script>
+</body>
+</html>
